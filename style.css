@@ -1,0 +1,189 @@
+.quotes {
+    position: absolute;
+    left: 250px;
+    top: 140px;
+    width: 100px;
+}
+
+.testimonial1, .testimonial {
+    width: 490px;
+    margin-top: 200px;
+    margin-left: 150px;
+    position: relative;
+}
+
+.testimonial2 {
+    width: 480px;
+    margin-top: 200px;
+    margin-left: 150px;
+    position: relative;
+    display: none;
+}
+
+.name-role {
+    display: flex;
+}
+
+.name {
+    color: hsl(240, 38%, 20%);
+    margin-right: 5px;
+}
+
+.role {
+    color: hsl(240, 18%, 77%);
+}
+
+.testimonial-img {
+    position: absolute;
+    left: 477px;
+    top: -120px;
+    z-index: -1;
+    width: 430px;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 28px;
+    line-height: 35px;
+    color: hsl(240, 38%, 20%);
+}
+
+.arrows {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    left: 690px;
+    top: 485px;
+    background-color: white;
+    width: 50px;
+    padding: 12px 20px;
+    border-radius: 40px;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, .4);
+}
+
+.nextSlide1:hover {
+    cursor: pointer;
+}
+
+.nextSlide2:hover {
+    cursor: pointer;
+}
+
+.bg {
+    position: absolute;
+    left: 589px;
+    top: 32px;
+    z-index: -2;
+    width: 550px;
+}
+
+.curve {
+    position: absolute;
+    left: 1px;
+    top: 527px;
+    height: 80px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 120px;
+}
+
+.attribution a { 
+    color: hsl(240, 18%, 77%); 
+    font-weight: 900;
+}
+
+
+/* MOBILE VIEW */
+
+@media screen and (max-width:425px) {
+
+    main {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.quotes {
+    position: absolute;
+    left: 205px;
+    top: 485px;
+    width: 65px;
+    height: 50px;
+}
+
+.testimonial1, .testimonial2 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-top: 160px;
+    margin-left: 0;
+    align-items: center;
+}
+
+.testimonial2 {
+    display: none;
+}
+
+.name-role {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.name {
+    margin-bottom: -25px;
+}
+
+.testimonial-img {
+    left: 27px;
+    top: -78px;
+    width: 300px;
+}
+
+p {
+    margin: 340px 0 0 0px;
+    width: 365px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.name-role {
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.arrows {
+    left: 170px;
+    top: 370px;
+    width: 50px;
+    padding: 11px 17px;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, .4);
+}
+
+.bg {
+    left: 31px;
+    top: 54px;
+    width: 370px;
+    height: 365px;
+}
+
+.curve {
+    top: 760px;
+    z-index: -1;
+}
+
+.attribution { 
+    font-size: 12px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+
+}
